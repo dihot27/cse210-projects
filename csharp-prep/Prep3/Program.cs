@@ -6,12 +6,17 @@ class Program
 
        
     {
-         String val;
+         String val1;
+         String val2;
          
         Console.WriteLine("What is the magic number?");
-        val =Console.ReadLine();
+        val1  =Console.ReadLine();
         Console.WriteLine("What is your guess?");
-        val=Console.ReadLine();
+        val2=Console.ReadLine();
+        
+        {
+
+        }
         
     }
 }
