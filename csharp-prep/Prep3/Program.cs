@@ -6,17 +6,34 @@ class Program
 
        
     {
-         String val1;
-         String val2;
+
          
         Console.WriteLine("What is the magic number?");
-        val1  =Console.ReadLine();
+        int magic=Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("What is your guess?");
-        val2=Console.ReadLine();
+        int guess=Convert.ToInt32(Console.ReadLine());
+        while(magic!=guess)
         
         {
+            Console.WriteLine("What is your guess?");
+            
+        }
+
+        if(magic>guess)
+        
+        {
+            Console.WriteLine("Higher");
 
         }
+        if(magic<guess)
+        {
+            Console.WriteLine("Lower");
+        }
+        else if(magic==guess)
+        {
+            Console.WriteLine("You guessed it!");
+        }
         
-    }
 }
+}
+
