@@ -8,7 +8,8 @@ class Program
     {
 
          
-        Console.WriteLine("What is the magic number?");
+        Random randomGenerator= new Random();
+        int number= randomGenerator.Next(1,100);
         int magic=Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("What is your guess?");
         int guess=Convert.ToInt32(Console.ReadLine());
